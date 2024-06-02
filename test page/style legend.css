@@ -1,0 +1,371 @@
+body{
+        font-family: "Roboto", sans-serif;
+   }
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}   
+
+.header{
+    width: 100%;
+    height:100%;
+    background-image: url(vesta_at_1440.webp.png);
+    background-size: cover;
+}
+    
+.nav_logo__png{
+    width: 200px;
+    height: 70px;
+}
+
+.nav_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: ease-in-out 0.2s;
+}
+
+.nav_bar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_link{
+    margin-right: 33px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.header_title{
+    font-family: "Roboto", sans-serif;
+    font-size:60px;
+    color: aliceblue;
+    font-weight:   100;
+    margin: 440px 0 0 0px ;
+    padding-bottom: 20px;
+}
+
+/* Granta */
+.granta{
+    width: 100%;
+    height:100%;
+    background-image: url(legend.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.granta_down{
+    padding: 50px 0 50px 0;
+}
+
+.granta_title{
+    margin: 100px 0px 0px 0px;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;   
+
+}
+
+.button_car{
+    display: inline-block;
+    border: solid white;
+    border-radius: 30px;
+    margin-bottom:45px ;
+}
+
+.granta_li_granta{
+    list-style-type: none;    
+    padding: 14px;
+    background-color: aliceblue;
+    border-radius:30px ;
+}
+
+.granta_link_black{
+    color: black;
+    text-decoration: none;
+}
+
+.granta_ul{    
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.granta_li{
+    list-style-type: none;    
+    padding: 14px;
+
+}
+
+.granta_link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.models_ul{
+}
+
+.models_li{
+    list-style: none;
+    margin-bottom: 36px;
+    position: relative;
+    
+}
+
+.granta_descrip{
+    margin-left: 80px;
+}
+
+.models_a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.granta_all{
+    display: flex;
+}
+
+.granta_name{
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 23px;
+}
+
+.price{
+    color: #E37639;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.price_cr{
+    color: aliceblue;   
+     margin-bottom: 64px;
+
+}
+
+.border_class{
+    border-left: 4px double black;
+}
+
+.button_big{
+    background-color: #E37639;
+    border-radius: 30px;
+    padding: 18px 19px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight:700;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-right: 20px;
+
+}
+
+.button_big:hover{
+    background-color: #a1440f;
+    transition: 0.2s ease-in-out;
+
+}
+
+.button_small{
+    padding: 16.5px 19px;
+    border-radius: 30px;
+    border: 2px solid #E37639;   
+     color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background: transparent ;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+
+}
+
+.button_small:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #E37639;
+}
+
+.button_small:active{
+    background-color: #a1440f;
+}
+
+.button_title{
+    margin-bottom: 32px;
+}
+
+
+.wrap_assist{
+    display: flex;
+}
+
+.road_assist{
+    background: rgb(255,11,11);
+    border: 1px solid #4C5865;    
+    padding: 16px 30px;
+    transition: 0.5s ease-in-out;
+    margin-right: 50px;
+}
+
+.road_assist:hover{
+    background: linear-gradient(90deg, rgba(255,11,11,1) 0%, rgba(252,176,69,1) 100%);
+    border: 1px solid #4C5865;    
+    display: inline-block;
+    padding: 16px 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.road_assist__title{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.road_assist_subtitile{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.road_assist_subtitile_feed{
+    color: white;
+}
+
+.assist_li{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.text_about__care{
+    margin-top: 87px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.support_p{
+    margin-bottom: 70px;
+}
+
+.about_car__care{
+    margin-bottom: 100px;
+}
+
+.road_assist_feed{
+    background: url(giphy.png);
+    border: 1px solid #4C5865;
+    transition: 0.5s ease-in-out;
+    padding: 16px 30px;
+}
+
+.road_assist_feed:hover{
+    background: url(giphy.gif);
+    border: 1px solid #4C5865;    
+    display: inline-block;
+    transition: 1s ease-in-out;
+    padding: 16px 30px;
+}
+
+
+.road_assist{
+    background: url(giphy.png);
+    padding: 16px 30px;
+    transition: 0.5s ease-in-out;
+    margin-right: 50px;
+    border: 1px solid #4C5865;    
+    display: inline-block;
+
+}
+
+.road_assist:hover{
+    background: url(giphy.gif);
+    border: 1px solid #4C5865;    
+    display: inline-block;
+    padding: 16px 30px;
+    transition: 1s ease-in-out;
+}
+
+.a_travel{
+    text-decoration: none;
+    color: white;
+}
+
+.news_block{
+    /* display: block;
+    padding: 37px 260px 0  37px; */
+    border: 1px solid #4C5865;
+    width: 367px;
+    padding: 37px;
+}
+
+
+.date_text{
+    color: #E37639;
+
+}
+
+.name_of__news{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.about_that__news{
+    color: black;
+    word-spacing:1px; 
+}  
+
+.news_wrap{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.news_block{
+    margin-right: 30px;
+}
+
+.cars_ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.cars_li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.cars_li__car{
+    list-style: none;
+
+}
+
+.cars_a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* footer */
+
+.footer_wrap{
+    display: flex;
+    justify-content: space-between;
+}
